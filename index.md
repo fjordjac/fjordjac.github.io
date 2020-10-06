@@ -45,8 +45,14 @@
         		<div class="subtitle">My Design Choices</div>
 		<div>
             <p>
-            I made many conscious design decisions that helped to make the visualization stand out and hopefully be more user friendly 
+            I made many conscious design decisions that helped to make the visualization stand out and hopefully be more user friendly. To identify fatailities I stick to only using two different colors. Since the purpose of the visualization is to understand the difference between male and female fatalities I chose red and blue and the two colors to use. This is because they contrast well. I also liked that because i chose to use a lighter opacity to represent one death, having overlap means that high death counts can be identified by purple areas. Darker red or blue areas would mean more men or women died in a specific area. I wanted to represent the pumphouses with green since it is known that the water was infected and that was the source of the issue. Green is often associated with poison or sickness so I used that as a design decision. I chose to keep the visualizations next to eachother so someone using a computer could easily see both on one screen. I used the Web Accessibility Evauation Tool (WAVE) to ensure that I have no accessibility errors. While I have some alerts that are related to HTML structure, there are no color or contrast errors present.
             </p>
+	    <br>
+	    <br>
+	    		<img src="resource/wave_results.PNG"
+					alt="Wave accessibility results"
+		     			style="width:100px"
+				/>
 	    
 		</div>
 	<div class="subtitle">Video Demo</div>
