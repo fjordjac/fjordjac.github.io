@@ -5,9 +5,6 @@
 	<link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
 	<style>
 	</style>
-	<script>
-	document.querySelectorAll('style,link[rel="stylesheet"]').forEach(e => e.remove());
-	</script>
 </head>
 <body>
 	<div>
@@ -62,7 +59,7 @@ Sorry, your browser does not support the &lt;video&gt; tag used in this demo.
 </div>
 </video>
 <br>
-<div
+<div>
         		<div class="subtitle">Questions and Conclusions</div>
 		<div>
 			<p>
