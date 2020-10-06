@@ -5,6 +5,9 @@
 	<link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
 	<style>
 	</style>
+	<script>
+	document.querySelectorAll('style,link[rel="stylesheet"]').forEach(e => e.remove());
+	</script>
 </head>
 <body>
 	<div>
