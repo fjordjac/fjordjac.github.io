@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>DataVis Project01</title>
+        <script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
+        <script type="text/javascript" src="js/javascript.js"></script>
+        <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+
+    </head>
+    <body>
+        <p> here </p>
+        <svg id="main_map" width="500px" viewBox="0 0 500 500"></svg>
+        <script>
+            var pumps = [];
+            var streets = [];
+            var MAX = 500;
+            var main_map = d3.select("#main_map");
+            var mmXScale = d3.scale.linear();
+            var mmYScale = d3.scale.linear();
+            var line = d3.svg.line()
+                .interpolate("basis")
+                .x(function(d) { return mmXScale(d.x); })
+                .y(function(d) { return mmYScale(d.y); });
+
+            d3.json("resource/streets.json", function(d) {
+                streets = d;
+                
+                mmXScale.domain([3,20]).range([0, MAX]);
+                mmYScale.domain([3,20]).range([MAX, 0]);
+
+                for (var i=0; i < streets.length; i++) {
+                    main_map.append("path")
+                    .attr("d", line(streets[i]))
+                    .attr("fill", "none")
+                    .attr("stroke","black")
+                    .attr("stroke-width", "2px");
+                }
+            });
+            var pumpSize = 8;
+		
+			d3.csv("resource/pumps.csv", function(data) {
+				for (var i=0; i < data.length; i++) {
+					pumps.push({x: data[i].x, y: data[i].y});
+				}
+				
+				main_map.selectAll('.pump')
+					.data(pumps)
+					.enter()
+					.append('rect')
+					.attr('class', 'pump')
+					.attr('width', pumpSize)
+					.attr('height', pumpSize)
+					.attr('x', function(d) {return mmXScale(d.x);})
+					.attr('y', function(d) {return mmYScale(d.y);})
+                    //.attr('transform', function(d) {return 'rotate(45 ' + mmXScale(d.x) + ' ' + mmYScale(d.y) + ')';});
+			});
+            </script>
+    </body>
+</html>
