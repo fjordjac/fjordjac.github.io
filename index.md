@@ -1,4 +1,4 @@
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>DataVis Project01</title>
@@ -45,7 +45,7 @@
         		<div class="subtitle">My Design Choices</div>
 		<div>
             <p>
-            Rationale of your design choices: This should be a rigorous explanation of the design choices you made. For example, why did you use color to encode a particular variable? Why did you arrange your charts in a particular way?
+            I made many conscious design decisions that helped to make the visualization stand out and hopefully be more user friendly 
             </p>
 	    
 		</div>
@@ -65,6 +65,7 @@ Sorry, your browser does not support the &lt;video&gt; tag used in this demo.
 		<div>
 			<p>
             The question I was curious about is the difference between male and female. Since the known issue was the infected water in the pumphouses, would gender play a role in fatality. 19th century England being a male dominated society i felt it would have made sense that more women would have been infected (since they would be home gathering water, using it to cook and clean, etc. Not shocking there seems to be more women who are not surviving, especially during the largest spikes of death. Evidence shown below:
+<br>
 <br>
 		<img src="resource/con_f.PNG"
 					alt="Female Death Spike"
