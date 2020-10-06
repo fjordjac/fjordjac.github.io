@@ -51,7 +51,7 @@
 	    <br>
 	    		<img src="resource/wave_results.PNG"
 					alt="Wave accessibility results"
-		     			style="width:100px"
+		     			style="width:250px"
 				/>
 	    
 		</div>
