@@ -67,6 +67,7 @@ Sorry, your browser does not support the &lt;video&gt; tag used in this demo.
             </p>
 		</div>
 	</div>
+	</div>
 </body>
 
 
