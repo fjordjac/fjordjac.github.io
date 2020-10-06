@@ -5,9 +5,6 @@
 	<link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
 	<style>
 	</style>
-	<script>
-	document.querySelectorAll('style,link[rel="stylesheet"]').forEach(e => e.remove());
-	</script>
 </head>
 <body>
 	<div>
@@ -61,14 +58,20 @@
 Sorry, your browser does not support the &lt;video&gt; tag used in this demo.
 </div>
 </video>
+</div>
 <br>
-<div
+<div>
         		<div class="subtitle">Questions and Conclusions</div>
 		<div>
 			<p>
-            THe question I was curious about is the difference between male and female. Since the known issue was the infected water in the pumphouses, would gender play a role in fatality. 19th century England being a male dominated society i felt it would have made sense that more women would have been infected (since they would be home gathering water, using it to cook and clean, etc
+            The question I was curious about is the difference between male and female. Since the known issue was the infected water in the pumphouses, would gender play a role in fatality. 19th century England being a male dominated society i felt it would have made sense that more women would have been infected (since they would be home gathering water, using it to cook and clean, etc. Not shocking there seems to be more women who are not surviving, especially during the largest spikes of death. Evidence shown below:
+<br>
+		<img src="resource/con_f.PNG"
+					alt="Female Death Spike"
+				/>
             </p>
 		</div>
+	</div>
 	</div>
 </body>
 
