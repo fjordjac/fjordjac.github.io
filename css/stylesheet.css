@@ -1,15 +1,18 @@
 
 .title {
-	color: steelblue;
-	font-family: 'Alice', serif;
-    float: left;
+	color: darkblue;
+	font-family: 'Optima';
 	font-size: 30px;
+    	float: left;
 }
 .subtitle {
 	color: black;
-	font-family: 'Alice', serif;
-	font-size: 15x;
 	font-weight: bold;
+	font-family: 'Optima';
+	font-size: 15x;	
+}
+p {
+	font-family: 'Optima';
 }
 .street {
     stroke: gray;
@@ -23,7 +26,7 @@
 }
 
 .axis text {
-    font-family: sans-serif;
+    font-family: arial;
     font-size: 10px;
     fill: gray;
 }
