@@ -40,7 +40,7 @@
                 Realizing that the screen would be better formatted for deskop view, instead of a vertical view I decided the best format would be a side-by-side design with both visualizations being the same size. This made more sense, considering the data in the line graph would be just as important and interesting as the map.
                 <br>
                 <br>
-                In the last itteration of my designs I settled on changing how i would display deaths on the map and the shape of pump houses. I didn't like how having larger circles would crowd eachother and eventually it would be impossible to see anything. 
+                In the last itteration of my designs I settled on changing how i would display deaths on the map and the shape of pump houses. I didn't like how having larger circles would crowd eachother and eventually it would be impossible to see anything. So I made a change and used small dots the represented the dead.
 
             </p>
 		</div>
@@ -50,11 +50,23 @@
             <p>
             Rationale of your design choices: This should be a rigorous explanation of the design choices you made. For example, why did you use color to encode a particular variable? Why did you arrange your charts in a particular way?
             </p>
+	    
 		</div>
+	<div class="subtitle">Video Demo</div>
+	<div>
+	<br>
+		        <video controls width="720">
+  <source src="resource/vis_demo.mp4" type="video/mp4">
+<div style="border: 1px solid black ; padding: 8px ;">
+Sorry, your browser does not support the &lt;video&gt; tag used in this demo.
+</div>
+</video>
+<br>
+<div
         		<div class="subtitle">Questions and Conclusions</div>
 		<div>
 			<p>
-            Describe how you used your visualizations to discover facts or answer questions you had. Include evidence to support your findings as screenshots from the visualization. In this case, we have a clear hypothesis to start with, but are there other nuggets of insights one can uncover?
+            THe question I was curious about is the difference between male and female. Since the known issue was the infected water in the pumphouses, would gender play a role in fatality. 19th century England being a male dominated society i felt it would have made sense that more women would have been infected (since they would be home gathering water, using it to cook and clean, etc
             </p>
 		</div>
 	</div>
