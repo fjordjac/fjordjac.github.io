@@ -69,6 +69,7 @@ Sorry, your browser does not support the &lt;video&gt; tag used in this demo.
 <br>
 		<img src="resource/con_f.PNG"
 					alt="Female Death Spike"
+		     			style="width:100px"
 				/>
             </p>
 		</div>
